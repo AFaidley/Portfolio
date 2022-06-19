@@ -3,12 +3,8 @@ body {
 }
 
 nav {
-    display:flex;
-    float:right;
-    flex-direction: row;
-    flex-wrap: wrap;
-    flex: 1000%;
-    
+  display:flex;
+  float: right;
 }
 
 h1 {
