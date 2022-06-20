@@ -53,9 +53,7 @@ li, .list {
   flex-shrink: 1;
   flex-direction: row;
   font-size: 25px;
-  padding: 8px;
   margin-right: 20px;
-  margin-bottom: -5px;
   font-family: fantasy;
   color: #551b14;
   list-style-type: none;
@@ -77,10 +75,12 @@ li, .list {
 
 .link:hover {
   color: #85756e;
+  transition: 2s;
 }
 
 .list:hover {
   color: #85756e;
+  transition: 2s;
 }
 
 .flex-parent {
@@ -88,4 +88,8 @@ li, .list {
   flex-wrap: wrap;
   justify-content: center;
   flex-basis: auto;
+}
+
+.app1 {
+  flex: 1;
 }
