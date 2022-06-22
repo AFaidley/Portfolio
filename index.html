@@ -12,26 +12,22 @@
 <body>
 
   <header>
+    <h1>Hi, I am Alviva. Welcome to my Portfolio!</h1>
     <nav>
-      <ul>
-        <li><a class="list" href="#am" title="About Me">About Me</a></li>
-        <br>
-        <li><a class="list" href="#work" title="My Work">My Work</a></li>
-        <br>
-        <li><a class="list" href="#contact" title="Contact Me">Contact Me</a></li>
-      </ul>
+      <a class="list" href="#am" title="About Me">About Me</a>
+      <a class="list" href="#work" title="My Work">My Work</a>
+      <a class="list" href="#contact" title="Contact Me">Contact Me</a>
     </nav>
 
-    <h1>Hi, I am Alviva. Welcome to my Portfolio!</h1>
   </header>
 
   <section>
-    <div>
-      <img class="me" src="./assets/img/img1.jpg" alt="placeholder image">
+    <div class="flex-container">
+      <img class="me" src="./assets/img/img1.jpg" alt="Image of myself">
     </div>
 
   </section>
-  <section>
+  <section class="section">
     <h2 id="am">About Me</h2>
     <br>
     <p>How about I tell you a little about myself? I am a Full-Stack Software Developer based in Longmont, CO.
@@ -43,47 +39,38 @@
 
   </section>
   <br>
-  <section>
+  <section class="section">
     <h3 id="work">My Work</h3>
     <div class="flex-parent">
 
-      <article id="app1">
-        <a href="#">
-          <h4>Weather App</h4>
-        </a>
+      <article id="app1" class="apps">
+        <a id ="weather-app" href="#" title="Weather App">Weather App</a>
         <a href="#"><img src="./assets/img/weather.jpg" alt="Weather App image"></a>
       </article>
 
       <article class="apps">
-        <a href="#">
-          <h4>Calculator</h4>
-        </a>
+        <a id= "img" href="#" title="Calculator">Calculator</a>
         <a href="#"><img src="./assets/img/calculator.jpg" alt="Calculator image"></a>
       </article>
 
       <article class="apps">
-        <a href="#">
-          <h4>Tic-tac-toe Game</h4>
-        </a>
+        <a id= "img" href="#" title="Tic-tac-toe Game">Tic-tac-toe </a>
         <a href="#"><img src="./assets/img/game.jpg" alt="Controller image"></a>
       </article>
 
       <article class="apps">
-        <a href="#">
-          <h4>To-Do List</h4>
-        </a>
+        <a id= "img" href="#" title="To Do List">To Do List</a>
         <a href="#"><img src="./assets/img/list.jpg" alt="List image"></a>
       </article>
-      
+
       <article class="apps">
-        <a href="#">
-          <h4>Calendar</h4>
-        </a>
+        <a id= "img" href="#" title="Calendar">Calendar</a>
         <a href="#"><img src="./assets/img/calendar.jpg" alt="Calendar image"></a>
       </article>
-      
+
     </div>
   </section>
+
   <section>
     <h5 id="contact">Contact Me</h5>
     <div>
