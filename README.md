@@ -4,6 +4,8 @@
 
 Welcome to my Portfolio!
 I bulit a portfolio for myself using html and css so that I am able to showcase my projects online to potential employers.
+Here is a link to my deployed application:
+https://afaidley.github.io/Portfolio/
 
 ## Table of Contents
 
