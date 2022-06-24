@@ -16,7 +16,7 @@ https://afaidley.github.io/Portfolio/
 ## Usage
 
 If someone were to visit my portfolio they would be able to navigate through my various projects as well as find different methods to contact me. 
-<br><br>
+<br></br>
 
 <img src="assets/img/landing.png" alt="Landing Page"/> 
 <img src="assets/img/about.png" alt="About Page"/>
