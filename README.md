@@ -16,10 +16,10 @@ I bulit a portfolio for myself using html and css so that I am able to showcase 
 If someone were to visit my portfolio they would be able to navigate through my various projects as well as find different methods to contact me. 
 <br><br>
 
-<img src="assets/img/landing.png" alt="Landing Page" width="500" height="500"/> 
-<img src="assets/img/about.png" alt="About Page" width="500" height="500"/>
-<img src="assets/img/work.png" alt="Work Page" width="500" height="500"/>
-<img src="assets/img/contact.png" alt="Contact Page" width="500" height="500"/>
+<img src="assets/img/landing.png" alt="Landing Page"/> 
+<img src="assets/img/about.png" alt="About Page"/>
+<img src="assets/img/work.png" alt="Work Page"/>
+<img src="assets/img/contact.png" alt="Contact Page"/>
 
 
 
