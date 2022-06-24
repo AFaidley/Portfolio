@@ -1,3 +1,4 @@
+/* Element selectors */
 body {
   background-color: #cdc5b4;
   margin: 0;
@@ -7,7 +8,7 @@ body {
 }
 
 nav {
-  display:flex;
+  display: flex;
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
@@ -47,7 +48,8 @@ img {
   box-shadow: 5px 5px 5px grey;
 }
 
-li, .list {
+li,
+.list {
   flex-shrink: 1;
   flex-direction: row;
   font-size: 25px;
@@ -57,12 +59,17 @@ li, .list {
   text-shadow: 5px 5px 5px grey;
 }
 
+address {
+  display: flex;
+}
+
 footer {
   display: flex;
   justify-content: center;
   font-size: 0.6em;
 }
 
+/* Class selctors */
 .flex-container {
   display: flex;
   justify-content: center;
@@ -125,6 +132,7 @@ footer {
   margin-left: 6%;
 }
 
+/* ID selctors */
 #app1 {
   flex-basis: 100%;
   justify-content: space-evenly;
@@ -133,24 +141,43 @@ footer {
 }
 
 #weather-app {
-  color:#551b14;
+  color: #551b14;
   align-items: center;
   display: block;
 }
 
 #img {
-display: block;
-color:#551b14;
+  display: block;
+  color: #551b14;
 }
 
-@media screen and (max-width: 992px) {
- .flex-parent {
-  flex: 0 0 100%;
+/* Media queries */
+@media screen and (min-width: 992px) {
+  .apps {
+    size: 100%;
   }
- }
 
-@media screen and (max-width: 768px) {
-  .apps, #app1{
-  width:50%;
+  #apps {
+    size: 100%;
+  }
+}
+/* Below 315px nav and address change to columns. */
+@media screen and (max-width: 315px) {
+  .apps {
+    size: 50%;
+  }
+
+  #apps {
+    size: 50%;
+  }
+
+  address,
+  a.link {
+    flex-direction: column;
+  }
+
+  nav,
+  a.list {
+    flex-direction: column;
   }
 }
