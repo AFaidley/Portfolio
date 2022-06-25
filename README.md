@@ -34,4 +34,5 @@ If someone were to visit my portfolio they would be able to navigate through my 
  - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container
  - https://www.w3schools.com/cssref/css3_pr_mediaquery.asp
  - https://www.w3schools.com/tags/tag_address.asp
+ - https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
 
