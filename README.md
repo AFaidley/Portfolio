@@ -18,10 +18,10 @@ https://afaidley.github.io/Portfolio/
 If someone were to visit my portfolio they would be able to navigate through my various projects as well as find different methods to contact me. 
 <br></br>
 
-<img src="./assets/img/landing.png" alt="Landing Page"/> 
-<img src="./assets/img/about.png" alt="About Page"/>
-<img src="./assets/img/work.png" alt="Work Page"/>
-<img src="./assets/img/contact.png" alt="Contact Page"/>
+<img src="./assets/img/Landing.png" alt="Landing Page"/> 
+<img src="./assets/img/About.png" alt="About Page"/>
+<img src="./assets/img/Work.png" alt="Work Page"/>
+<img src="./assets/img/Contact.png" alt="Contact Page"/>
 
 
 
